@@ -1,5 +1,4 @@
 import sqlite3
-import csv
 import io
 
 conn = sqlite3.connect('C:\\Users\\joshu\\Documents\GitHub\\Projects\\maimai SQLite\\db.sqlite3')
