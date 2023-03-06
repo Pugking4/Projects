@@ -11,12 +11,7 @@ player_maimai = cur.fetchall()
 
 for i in player_maimai:
     #print(i[0])
-    """
-    if "'" in i[0]:
-        print("found")
-        ind = i[0].index("'")
-        i = i[0][:ind] + "'" + i[0][ind:]
-    """
+
     cur.execute(f"SELECT internalLevel FROM SheetInternalLevels WHERE songId = \"{i[0].strip()}\" AND (difficulty = 'master' OR difficulty = 'remaster');")
     temp = cur.fetchall()
     if len(temp) > 0:
@@ -24,9 +19,6 @@ for i in player_maimai:
     else:
         print(f"{i[0]} | Internal level not avaliable | {i[1]}")
     #print(f"{''.join(i)} {''.join(temp)}")
-
-
-
 
 conn.close()
 #print(player_maimai)
