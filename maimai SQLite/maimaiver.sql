@@ -1,7 +1,7 @@
 .mode csv
-.output results2.csv
+.output results3.csv
 .open db.sqlite3
-SELECT songId
-FROM Songs
-WHERE version = 'maimai'
+SELECT song,score
+FROM playerscores
+WHERE level = '14+'
 ;
