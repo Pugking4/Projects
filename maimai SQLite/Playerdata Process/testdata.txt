@@ -1,0 +1,4 @@
+song|genre|difficulty|level|type|score|version|internal_level
+jelly|POPS＆ANIME|MASTER|12|STANDARD|99.0973%|maimai|N/A
+Love You|POPS＆ANIME|MASTER|11+|STANDARD|98.3971%|maimai|N/A
+Nyan Cat EX|niconico＆VOCALOID™|MASTER|13+|STANDARD|99.0322%|GreeN|13.8

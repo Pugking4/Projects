@@ -1,75 +1,71 @@
-import sqlite3
 import csv
-import io
 
-conn = sqlite3.connect('C:\\Users\\joshu\\Documents\GitHub\\Projects\\maimai SQLite\\db.sqlite3')
-cur = conn.cursor()
-
-versions = ['maimai','maimai PLUS','GreeN','GreeN PLUS','ORANGE','ORANGE PLUS','PiNK','PiNK PLUS','MURASAKi','MURASAKi PLUS','MiLK','MiLK PLUS','FiNALE']
-
-#dif = input("What difficulty? ")
-dif = "master"
-#ver = input("What version? ")
-ver = "PiNK"
-
-player_set = set()
-ver_set = set()
-
-cur.execute(f"SELECT song,difficulty,level,score FROM playerscores WHERE difficulty = \"{dif.upper()}\";")
-player_scores = cur.fetchall()
-#print(player_scores)
-
-cur.execute(f"SELECT songId FROM Songs WHERE version = \"{ver}\";")
-player_version = cur.fetchall()
-#print(player_version)
-
-cur.execute(f"SELECT songId FROM IntlSheets WHERE difficulty = \"{dif.lower()}\" AND type = 'std';")
-int_sheets = cur.fetchall()
-#print(int_sheets)
+levels = ['1', '2', '3', '4', '5', '6', '7', '7+', '8', '8+', '9', '9+', '10', '10+', '11', '11+', '12', '12+', '13', '13+', '14', '14+', '15']
+versions = ['maimai', 'maimai PLUS', 'GreeN', 'GreeN PLUS', 'ORANGE', 'ORANGE PLUS', 'PiNK', 'PiNK PLUS', 'MiLK', 'MiLK PLUS', 'FiNALE']
+difficulties = ['BASIC', 'ADVANCED', 'EXPERT', 'MASTER', 'RE:MASTER']
+ranks = {'D':0,'C':49.9999,'B':59.9999,'BB':69.9999,'BBB':74.9999,'A':79.9999,'AA':89.9999,'AAA':93.9999,'S':96.9999, 'S+':97.9999,'SS':98.9999, 'SS+':99.4999,'SSS':99.9999,'SSS+':100.4999, 0:0}
 
 
-player_scores_new = []
-for i in player_scores:
-    song = i[0].replace("'", "''")
-    #print(song, dif)
-    cur.execute(f"SELECT internalLevel FROM SheetInternalLevels WHERE songId = '{song}' AND difficulty = '{dif.lower()}' AND type = 'std';")
-    internal_levels = cur.fetchall()
-    #print(float(i[3].rstrip("%")))
-    if song in [j[0] for j in player_version] and float(i[3].rstrip("%")) >= 97.0000:
-        player_set.add(song)
-        if len(internal_levels) > 0:
-            player_scores_new.append((song, i[1], i[2], i[3], internal_levels[0][0]))
-        else:
-            player_scores_new.append((song, i[1], i[2], i[3], 'N/A'))
-    elif song in [j[0] for j in player_version]:
-        if len(internal_levels) > 0:
-            player_scores_new.append((song, i[1], i[2], i[3], internal_levels[0][0]))
-        else:
-            player_scores_new.append((song, i[1], i[2], i[3], 'N/A'))
+version = input('Version? (std only) ')
+difficulty = input('Difficulty? ')
+level = input('Level? ')
+rank = input('Rank? ')
 
-"""
-for i in int_sheets:
-    for x in player_scores:
-        if i not in x:
-            player_scores_new.append((i, i[1], i[2], i[3], 'N/A'))
-"""
-    
-#print(player_scores_new[0][0])
-#player_scores = player_scores_new
+temp_list = []
+check_list = []
+count = 0
+#version = 'maimai'
+#difficulty = 'MASTER'
+#level = ''
+#rank = 'S'
 
-for i in player_version:
-    if i in int_sheets:
-        ver_set.add(i[0])
+if rank == '':
+    rank = 0
 
-no_s = ver_set-player_set
+if version == '':
+    version = None
 
-for i in no_s:
-    for x in player_scores_new:
-        #print(i, 'compare', x[0])
-        if i == x[0]:
-            print(x[0], x[3])
-        #else:
-        #    print(x[0], '0.0000%')
-#print(player_scores)
+if difficulty == '':
+    difficulty = None
 
+if level == '':
+    level = levels
 
+#if level not in levels and level != None:
+#    print('Invalid level.')
+#    exit()
+
+if version not in versions and version != None:
+    print('Invalid version.')
+    exit()
+
+if rank not in ranks and rank != 0:
+    print('Invalid rank.')
+    exit()
+
+if difficulty == 'REMASTER':
+    difficulty = 'RE:MASTER'
+
+if difficulty not in difficulties and difficulty != None:
+    print('Invalid difficulty.')
+    exit()
+
+with open(r'maimai SQLite\Playerdata Process\playerdata.csv', 'r', encoding="utf8") as f:
+    for line in csv.DictReader(f, delimiter='|'):
+        line['score'] = line['score'].rstrip('%')
+        if line['version'] == version and line['difficulty'].upper() == difficulty and line['level'] in level and float(line['score']) > ranks[rank]:
+                #print(f"{line['song']}, {line['difficulty']}, {line['level']}, {line['internal_level']}, {line['score']}, {line['version']}")
+                temp_list = [line['song'], line['difficulty']]
+                check_list.append(temp_list)
+                count += 1
+                temp_list = []
+
+print(f"Total that match the criteria: {count}")
+count = 0
+
+with open(r'maimai SQLite\Playerdata Process\alldata.csv', 'r', encoding="utf8") as f:
+    for line in csv.DictReader(f, delimiter='|'):
+        if line['difficulty'].upper() == difficulty and line['song'] not in [item[0] for item in check_list] and line['version'] == version:
+                print("Not in check_list:", line['song'], line['difficulty'], line['version'])
+                count += 1
+print(f"Total that dont match rank criteria: {count}")
