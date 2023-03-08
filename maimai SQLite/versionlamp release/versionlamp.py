@@ -1,5 +1,5 @@
 import csv
-import time
+#import time
 
 levels = ['1', '2', '3', '4', '5', '6', '7', '7+', '8', '8+', '9', '9+', '10', '10+', '11', '11+', '12', '12+', '13', '13+', '14', '14+', '15']
 versions = ['maimai', 'maimai PLUS', 'GreeN', 'GreeN PLUS', 'ORANGE', 'ORANGE PLUS', 'PiNK', 'PiNK PLUS', 'MiLK', 'MiLK PLUS', 'FiNALE']
@@ -44,7 +44,7 @@ count = 0
 
 
 
-with open(r'maimai SQLite\Playerdata Process\playerdata.csv', 'r', encoding="utf8") as f:
+with open(r'playerdata.csv', 'r', encoding="utf8") as f:
     for line in csv.DictReader(f, delimiter='|'):
         line['score'] = line['score'].rstrip('%')
         if line['version'] == version and line['difficulty'].upper() == difficulty and line['level'] in level and float(line['score']) > ranks[rank]:
@@ -57,11 +57,11 @@ with open(r'maimai SQLite\Playerdata Process\playerdata.csv', 'r', encoding="utf
 print(f"Total that match the criteria: {count}")
 count = 0
 
-with open(r'maimai SQLite\Playerdata Process\alldata.csv', 'r', encoding="utf8") as f:
+with open(r'alldata.csv', 'r', encoding="utf8") as f:
     for line in csv.DictReader(f, delimiter='|'):
         if line['difficulty'].upper() == difficulty and line['song'] not in [item[0] for item in check_list] and line['version'] == version:
                 print("Not in check_list:", line['song'], line['difficulty'], line['version'])
                 count += 1
-print(f"Total that dont match rank criteria: {count}")
+print(f"Total that dont match criteria: {count}")
 #time.sleep(5)
 #input("Press Enter to exit...")
