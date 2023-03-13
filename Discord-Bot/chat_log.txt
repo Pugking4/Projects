@@ -1,0 +1,238 @@
+Pugking4#1713|
+Pugking4#1713|
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>readfile
+Pugking4#1713|>readline_txt
+Pugking4#1713|>readfile_txt
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>readfile_txt
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>readfile_txt
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>readfile_txt
+Pugking4#1713|>debug
+PugPyBot v0.1#6550|Debug mode enabled.
+Pugking4#1713|>readfile_txt
+PugPyBot v0.1#6550|Error: 400 Bad Request (error code: 50035): Invalid Form Body
+In content: Must be 4000 or fewer in length.
+Pugking4#1713|>gavtake_spec 40
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>gavtake_spec 40
+Pugking4#1713|>debug
+PugPyBot v0.1#6550|Debug mode enabled.
+Pugking4#1713|>gavtake_spec 40
+PugPyBot v0.1#6550|Error: list index out of range
+Pugking4#1713|>gavtake
+PugPyBot v0.1#6550|1 L take(s) have been recorded.
+Pugking4#1713|>gavtake_index
+PugPyBot v0.1#6550|Index: 0 | "im only good at trill charts", "i LOVE trills" and "i only have shit takes"
+Pugking4#1713|>help
+Pugking4#1713|>debug
+PugPyBot v0.1#6550|Debug mode disabled.
+Pugking4#1713|>gavtake_spec 40
+Pugking4#1713|>debug
+PugPyBot v0.1#6550|Debug mode enabled.
+Pugking4#1713|>readfile_txt
+PugPyBot v0.1#6550|Error: 400 Bad Request (error code: 50035): Invalid Form Body
+In content: Must be 4000 or fewer in length.
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>debug
+PugPyBot v0.1#6550|Debug mode enabled.
+Pugking4#1713|>readfile_txt
+PugPyBot v0.1#6550|Error: 400 Bad Request (error code: 50035): Invalid Form Body
+In content: Must be 2000 or fewer in length.
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>debug
+PugPyBot v0.1#6550|Debug mode enabled.
+Pugking4#1713|>readfile_txt
+PugPyBot v0.1#6550|Error: 'utf-8' codec can't decode byte 0xe3 in position 1999: unexpected end of data
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>readfile_txt
+Pugking4#1713|>debug
+PugPyBot v0.1#6550|Debug mode enabled.
+Pugking4#1713|>readfile_txt
+PugPyBot v0.1#6550|Error: 400 Bad Request (error code: 50035): Invalid Form Body
+In content: Must be 2000 or fewer in length.
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>debug
+PugPyBot v0.1#6550|Debug mode enabled.
+Pugking4#1713|>readfile_txt
+PugPyBot v0.1#6550|Error: 400 Bad Request (error code: 50035): Invalid Form Body
+In content: Must be 2000 or fewer in length.
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>debug
+PugPyBot v0.1#6550|Debug mode disabled.
+Pugking4#1713|>debug
+PugPyBot v0.1#6550|Debug mode enabled.
+Pugking4#1713|>readfile_txt
+PugPyBot v0.1#6550|Error: 400 Bad Request (error code: 50035): Invalid Form Body
+In content: Must be 2000 or fewer in length.
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>readfile_txt
+PugPyBot v0.1#6550|Error: 400 Bad Request (error code: 50035): Invalid Form Body
+In content: Must be 2000 or fewer in length.
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>readfile_txt
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>readfile_txt
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>readfile_txt
+PugPyBot v0.1#6550|Contents written to Pugking4#1713.txt, content is 8 char long.
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>purge
+Pugking4#1713|>purgew
+Pugking4#1713|>purge
+Pugking4#1713|>purge_file
+PugPyBot v0.1#6550|Error: [WinError 2] The system cannot find the file specified: 'Pugking4#1713.txt'
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>purge_file
+PugPyBot v0.1#6550|File Projects\Discord-Bot\Pugking4#1713.txt has been purged.
+Pugking4#1713|>readfile_txt
+PugPyBot v0.1#6550|Error: 'charmap' codec can't encode character '\u8e0a' in position 0: character maps to <undefined>
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>purge_file
+PugPyBot v0.1#6550|File Projects\Discord-Bot\Pugking4#1713.txt has been purged.
+Pugking4#1713|>readfile_txt
+PugPyBot v0.1#6550|Contents written to Pugking4#1713.txt, content is 14 char long.
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>readfile_txt
+PugPyBot v0.1#6550|Contents written to Pugking4#1713.txt, content is 1805 lines long.
+Pugking4#1713|>purge_file
+PugPyBot v0.1#6550|File Projects\Discord-Bot\Pugking4#1713.txt has been purged.
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>readfile_txt
+PugPyBot v0.1#6550|Please attach a .txt file.
+Pugking4#1713|>sendfile_txt
+PugPyBot v0.1#6550|Error: [Errno 2] No such file or directory: 'Projects\\Discord-Bot\\Pugking4#1713.txt'
+Pugking4#1713|>readfile_txt
+PugPyBot v0.1#6550|Contents written to Pugking4#1713.txt, content is 1805 lines long.
+Pugking4#1713|>sendfile_txt
+PugPyBot v0.1#6550|
+Pugking4#1713|>jesse
+Pugking4#1713|>jesse
+PugPyBot v0.1#6550|AUTO-BOTS ROLL OUT.
+PugPyBot v0.1#6550|AUTO-BOTS ROLL OUT.
+PugPyBot v0.1#6550|AUTO-BOTS ROLL OUT.
+PugPyBot v0.1#6550|AUTO-BOTS ROLL OUT.
+Pugking4#1713|oh no
+Pugking4#1713|oh no
+Pugking4#1713|>ping
+Pugking4#1713|>ping
+PugPyBot v0.1#6550|Pong! 217ms
+PugPyBot v0.1#6550|Pong! 217ms
+Pugking4#1713|>ping
+Pugking4#1713|>ping
+PugPyBot v0.1#6550|Pong! 217ms
+PugPyBot v0.1#6550|Pong! 217ms
+Pugking4#1713|>jesse
+Pugking4#1713|>jesse
+PugPyBot v0.1#6550|AUTO-BOTS ROLL OUT.
+PugPyBot v0.1#6550|AUTO-BOTS ROLL OUT.
+PugPyBot v0.1#6550|AUTO-BOTS ROLL OUT.
+PugPyBot v0.1#6550|AUTO-BOTS ROLL OUT.
+Pugking4#1713|>multiply 3 4
+Pugking4#1713|>multiply 3 4
+PugPyBot v0.1#6550|3 * 4 = 12
+PugPyBot v0.1#6550|3 * 4 = 12
+PugPyBot v0.1#6550|3 * 4 = 12
+PugPyBot v0.1#6550|3 * 4 = 12
+Pugking4#1713|>reload
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+PugPyBot v0.1#6550|Restarting bot...
+PugPyBot v0.1#6550|Restarting bot...
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>jesse
+PugPyBot v0.1#6550|AUTO-BOTS ROLL OUT.
+Pugking4#1713|>pingh
+DEN#5812|Inferno towers killed you
+Pugking4#1713|>ping
+PugPyBot v0.1#6550|Pong! 217ms
+Pugking4#1713|>maiprocess
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>jesse
+PugPyBot v0.1#6550|AUTO-BOTS ROLL OUT.
+Pugking4#1713|>ping
+PugPyBot v0.1#6550|Pong! 215ms
+Pugking4#1713|>multiply 1 4
+PugPyBot v0.1#6550|1 * 4 = 4
+Rentoz#5780|darrence you also choked hard on your attack
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>jesse
+PugPyBot v0.1#6550|AUTO-BOTS ROLL OUT.
+Pugking4#1713|>ping
+PugPyBot v0.1#6550|Pong! 225ms
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>ping
+PugPyBot v0.1#6550|Pong! 219ms
+Pugking4#1713|>readfile_txt
+PugPyBot v0.1#6550|Contents written to Pugking4#1713.txt, content is 1805 lines long.
+Pugking4#1713|>maiprocess
+DEN#5812|<@633776267484725259> send challenge, need to try smth
+Pugking4#1713|IT WORKS
+Pugking4#1713|
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>version lamp maimai MASTER
+Pugking4#1713|>versionlamp maimai MASTER
+Pugking4#1713|>version lamp maimai MASTER None
+Pugking4#1713|>versionlamp maimai MASTER None
+Pugking4#1713|>jesse
+PugPyBot v0.1#6550|AUTO-BOTS ROLL OUT.
+Pugking4#1713|>ping
+PugPyBot v0.1#6550|Pong! 217ms
+Pugking4#1713|>versionlamp maimai MASTER None
+PugPyBot v0.1#6550|Error: local variable 'rank' referenced before assignment
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>versionlamp maimai MASTER None
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>versionlamp maimai MASTER S
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>versionlamp maimai MASTER S
+PugPyBot v0.1#6550|Total that match the criteria: 41
+PugPyBot v0.1#6550|Total that dont match criteria: 1
+Pugking4#1713|LFG
+Pugking4#1713|>versionlamp GreeN MASTER S
+PugPyBot v0.1#6550|Total that match the criteria: 62
+PugPyBot v0.1#6550|Total that dont match criteria: 0
+Pugking4#1713|>versionlamp FiNALE MASTER S
+PugPyBot v0.1#6550|Total that match the criteria: 38
+PugPyBot v0.1#6550|Not in check_list: true my heart -Lovable mix- master FiNALE
+PugPyBot v0.1#6550|Not in check_list: End Time master FiNALE
+PugPyBot v0.1#6550|Not in check_list: B.M.S. master FiNALE
+PugPyBot v0.1#6550|Not in check_list: the EmpErroR master FiNALE
+PugPyBot v0.1#6550|Not in check_list: QZKago Requiem master FiNALE
+PugPyBot v0.1#6550|Not in check_list: PANDORA PARADOXXX master FiNALE
+PugPyBot v0.1#6550|Total that dont match criteria: 10
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|<@633776267484725259>could u test smth for me
+Pugking4#1713|just send a txt with ur playerdata in it
+Pugking4#1713|it should work bc its based on usernames
