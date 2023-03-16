@@ -157,7 +157,7 @@ async def read_file(ctx):
 @bot.command(name='purge_file', help='Deletes everything in {ctx.message.author}.txt')
 async def purge_file(ctx):
     try:
-        filename = f"Projects\\Discord-Bot\\{ctx.message.author}.txt"
+        filename = f"Projects\\Discord-Bot\\maimai\\{ctx.message.author}.txt"
         os.remove(filename)
         await ctx.send(f"File {filename} has been purged.")
     except Exception as e:
@@ -280,6 +280,7 @@ async def maiprocess(ctx):
                 temp2 = temp2.rstrip('|')
                 fw.write(temp2 + '\n')
                 temp2 = ''
+        await ctx.send(f"Processing complete.")
     except Exception as e:
         if debug_mode:
             await ctx.send(f"Error: {str(e)}")
@@ -385,7 +386,7 @@ async def on_message(message):
             fa.write(temp.rstrip('|') + '\n')
 
  # Check if the message is from a specific user (e.g. User#1234)
-    if str(message.author) == 'Rentoz#5780':
+    if str(message.author) == 'Pugking4#1713':
         # Check if the user is already in the dictionary
         if str(message.author) in last_messages:
             # If the user is already in the dictionary, append the new message to the list

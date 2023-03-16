@@ -236,3 +236,173 @@ PugPyBot v0.1#6550|Restarting bot...
 Pugking4#1713|<@633776267484725259>could u test smth for me
 Pugking4#1713|just send a txt with ur playerdata in it
 Pugking4#1713|it should work bc its based on usernames
+Pugking4#1713|<@275478615951409152>u bastard u attacked my taget
+Temp#2962|https://media.discordapp.net/attachments/946313903850258433/948445624175570974/IMG_2345.gif
+Rentoz#5780|kekw
+Rentoz#5780|you can just 3-start no.19
+Rentoz#5780|
+Rentoz#5780|is this how you want it?
+Pugking4#1713|nah upload it with the msg >readfile_txt
+Pugking4#1713|then say >maiprocess
+Pugking4#1713|then say >versionlamp maimai MASTER S
+Rentoz#5780|wut
+Rentoz#5780|ok
+Rentoz#5780|>readfile_txt
+PugPyBot v0.1#6550|Contents written to Rentoz#5780.txt, content is 723 lines long.
+Rentoz#5780|>maiprocess
+Rentoz#5780|>versionlamp maimai MASTER S
+PugPyBot v0.1#6550|Total that match the criteria: 9
+PugPyBot v0.1#6550|Not in check_list: Love or Lies master maimai
+PugPyBot v0.1#6550|Not in check_list: jelly master maimai
+PugPyBot v0.1#6550|Not in check_list: Love You master maimai
+PugPyBot v0.1#6550|Not in check_list: come again master maimai
+PugPyBot v0.1#6550|Not in check_list: Future master maimai
+PugPyBot v0.1#6550|Not in check_list: ZIGG-ZAGG master maimai
+PugPyBot v0.1#6550|Not in check_list: City Escape: Act1 master maimai
+PugPyBot v0.1#6550|Not in check_list: Rooftop Run: Act1 master maimai
+PugPyBot v0.1#6550|Not in check_list: Urban Crusher [Remix] master maimai
+PugPyBot v0.1#6550|Not in check_list: Catch The Future master maimai
+PugPyBot v0.1#6550|Not in check_list: Crush On You master maimai
+PugPyBot v0.1#6550|Not in check_list: Beat Of Mind master maimai
+PugPyBot v0.1#6550|Not in check_list: JACKY [Remix] master maimai
+PugPyBot v0.1#6550|Not in check_list: Sweets×Sweets master maimai
+PugPyBot v0.1#6550|Not in check_list: Color My World master maimai
+PugPyBot v0.1#6550|Not in check_list: True Love Song master maimai
+PugPyBot v0.1#6550|Total that dont match criteria: 33
+Rentoz#5780|>versionlamp UNiVERSE PLUS MASTER S
+Rentoz#5780|>versionlamp UNiVERSE+ MASTER S
+Rentoz#5780|>versionlamp FiNALE MASTER S
+PugPyBot v0.1#6550|Total that match the criteria: 12
+PugPyBot v0.1#6550|Not in check_list: only my railgun master FiNALE
+PugPyBot v0.1#6550|Not in check_list: true my heart -Lovable mix- master FiNALE
+PugPyBot v0.1#6550|Not in check_list: WORLD'S END UMBRELLA master FiNALE
+PugPyBot v0.1#6550|Not in check_list: Money Money master FiNALE
+PugPyBot v0.1#6550|Not in check_list: White Traveling Girl master FiNALE
+PugPyBot v0.1#6550|Not in check_list: Imperishable Night 2006 (2016 Refine) master FiNALE
+PugPyBot v0.1#6550|Not in check_list: Scarlet Lance master FiNALE
+PugPyBot v0.1#6550|Not in check_list: B.M.S. master FiNALE
+PugPyBot v0.1#6550|Not in check_list: EVERGREEN master FiNALE
+PugPyBot v0.1#6550|Not in check_list: ENJOY POLIS master FiNALE
+PugPyBot v0.1#6550|Not in check_list: Alea jacta est! master FiNALE
+PugPyBot v0.1#6550|Not in check_list: the EmpErroR master FiNALE
+PugPyBot v0.1#6550|Not in check_list: QZKago Requiem master FiNALE
+PugPyBot v0.1#6550|Not in check_list: PANDORA PARADOXXX master FiNALE
+PugPyBot v0.1#6550|Not in check_list: FFT master FiNALE
+PugPyBot v0.1#6550|Not in check_list: Schwarzschild master FiNALE
+PugPyBot v0.1#6550|Not in check_list: TiamaT:F minor master FiNALE
+PugPyBot v0.1#6550|Total that dont match criteria: 36
+Rentoz#5780|>versionlamp FiNALE EXPERT S
+PugPyBot v0.1#6550|Total that match the criteria: 12
+PugPyBot v0.1#6550|Not in check_list: only my railgun expert FiNALE
+PugPyBot v0.1#6550|Not in check_list: true my heart -Lovable mix- expert FiNALE
+PugPyBot v0.1#6550|Not in check_list: WORLD'S END UMBRELLA expert FiNALE
+PugPyBot v0.1#6550|Not in check_list: Money Money expert FiNALE
+PugPyBot v0.1#6550|Not in check_list: White Traveling Girl expert FiNALE
+PugPyBot v0.1#6550|Not in check_list: End Time expert FiNALE
+PugPyBot v0.1#6550|Not in check_list: B.M.S. expert FiNALE
+PugPyBot v0.1#6550|Not in check_list: EVERGREEN expert FiNALE
+PugPyBot v0.1#6550|Not in check_list: Good Bye, Mr. Jack expert FiNALE
+PugPyBot v0.1#6550|Not in check_list: ENJOY POLIS expert FiNALE
+PugPyBot v0.1#6550|Not in check_list: Believe the Rainbow expert FiNALE
+PugPyBot v0.1#6550|Not in check_list: FFT expert FiNALE
+PugPyBot v0.1#6550|Not in check_list: Schwarzschild expert FiNALE
+PugPyBot v0.1#6550|Not in check_list: -OutsideR:RequieM- expert FiNALE
+PugPyBot v0.1#6550|Total that dont match criteria: 36
+Pugking4#1713|dx or above dont work
+Pugking4#1713|thx for testing it
+Pugking4#1713|it works
+Pugking4#1713|Gonna wait until barb is ready
+Pugking4#1713|<@504165458271010816> my brain dying here wtf am I meant to do
+DEN#5812|1/6 is wrong
+Pugking4#1713|bruh
+Pugking4#1713|HOW IS 11/30 EVEN REMOTELY CORRECT
+Pugking4#1713|i fucking hate mathspace
+DEN#5812|How did you get 8/20?
+Pugking4#1713|looked at the example
+Pugking4#1713|I try not to look at them bc most of the time they straight up give u the answer
+DEN#5812|Did you get it correct?
+Pugking4#1713|yeah
+Pugking4#1713|2/5
+Pugking4#1713|
+DEN#5812|Vv
+Pugking4#1713|they just give u the answers its dumb
+Pugking4#1713|I accidently wrote 7/12 and it said it was correct
+Pugking4#1713|bouta have an aneurism
+Temp#2962|damn
+Temp#2962|homework is all I see in this server
+Pugking4#1713|its all homework from me because im dying
+Temp#2962|damn
+Rentoz#5780|<@504165458271010816> what in the fxck is this
+https://youtu.be/mstZRgBGft4
+DEN#5812|Yaminabe!!!
+Pugking4#1713|banger song
+Pugking4#1713|did it get added to prsk or is this fanmade
+DEN#5812|You're very late, it was released 1 and a half weeks ago
+DEN#5812|Real
+Pugking4#1713|oh nice
+DEN#5812|It's 37 master though
+DEN#5812|And 31 expert
+DEN#5812|With speed changes on both
+DEN#5812|<@633776267484725259> Also, unfortunately sonolus doesn't have the speed changes
+Rentoz#5780|Wwll shiet
+Pugking4#1713|<@633776267484725259><@275478615951409152>mick is slacking recently smh
+Temp#2962|good
+Pugking4#1713|nah man not cool
+Rentoz#5780|LETS FCKIN GOOOOOOOOOO
+Pugking4#1713|needed to confirm if my notes were fine for test 2
+Rentoz#5780|K djfbjrjdjfhjrf
+Rentoz#5780|Just msg the man via email
+Pugking4#1713|yeah but email sucks
+Temp#2962|when is test 2?
+Temp#2962|week 8?
+Pugking4#1713|i dont like emailing ppl
+Pugking4#1713|i think
+Pugking4#1713|ill check
+Pugking4#1713|22 mar
+Pugking4#1713|its wk 7 rn right?
+Pugking4#1713|new leaf song
+https://youtu.be/3sDnH4Icla0
+Pugking4#1713|its def interesting
+DEN#5812|Yes
+Pugking4#1713|>multiply 2 4
+PugPyBot v0.1#6550|2 * 4 = 8
+Pugking4#1713|>pass test1 test2
+PugPyBot v0.1#6550|Parameter 1: test1
+Parameter 2: test2
+Pugking4#1713|>help
+Pugking4#1713|>gavtake]
+Pugking4#1713|>gavtake
+PugPyBot v0.1#6550|1 L take(s) have been recorded.
+Pugking4#1713|>ping
+PugPyBot v0.1#6550|Pong! 217ms
+Pugking4#1713|>help
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>help
+Pugking4#1713|test1
+Pugking4#1713|test2
+Pugking4#1713|test3
+Pugking4#1713|test4
+PugPyBot v0.1#6550|L take detected, adding to database.
+"test2", "test3" and "test4" added to database.
+Pugking4#1713|l gavin take
+Pugking4#1713|>gavtake
+PugPyBot v0.1#6550|2 L take(s) have been recorded.
+Pugking4#1713|>purge_file
+PugPyBot v0.1#6550|Error: [WinError 2] The system cannot find the file specified: 'Projects\\Discord-Bot\\Pugking4#1713.txt'
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>purge_file
+PugPyBot v0.1#6550|File Projects\Discord-Bot\maimai\Pugking4#1713.txt has been purged.
+Pugking4#1713|>readfile_txt
+PugPyBot v0.1#6550|Contents written to Pugking4#1713.txt, content is 1824 lines long.
+Pugking4#1713|>maiprocess
+Pugking4#1713|>versionlamp PiNK MASTER S
+PugPyBot v0.1#6550|Total that match the criteria: 30
+PugPyBot v0.1#6550|Not in check_list: Glorious Crown master PiNK
+PugPyBot v0.1#6550|Total that dont match criteria: 4
+Pugking4#1713|also networking test 2 format gonna be 6 questions on offline vscode
+Pugking4#1713|2 are gonna be easy, 2 intermediate and 2 hard
+Pugking4#1713|adam said he finish easy ones in 1 min and the hard one in like 10 - 20 min
+Pugking4#1713|he took like 30 min in total and we have 90
+Pugking4#1713|also were gonna be marked on how good our soloution is for the harders ones
