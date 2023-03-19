@@ -5,6 +5,7 @@ import sys
 import sqlite3
 import csv
 import string
+import datetime
 
 import discord
 from discord.ext import commands
@@ -198,6 +199,106 @@ async def ping(ctx):
         return
     
 
+@bot.command(name='maiupdate', help='Returns next update for maimai FESTiVAL.')
+async def maiupdate(ctx):
+    updates = {
+"2023-02-03": {
+"Rising on the horizon": 14.4,
+"ViRTUS": 14.7,
+"Trrricksters!!": None,
+"VIIIbit Explorer": 14.5
+},
+"2023-03-10": {
+"アマカミサマ": 12.7,
+"モンダイナイトリッパー！": 13.7,
+"マーシャル・マキシマイザー": 13.1,
+"秋の未確認生物": 12.9
+},
+"2023-03-24": {
+"You Mean the World to Me": 13.8,
+"Neon Kingdom": 13.8,
+"#狂った民族２ PRAVARGYAZOOQA": 14.4,
+"VSpook!": 14.4
+},
+"2023-04-07": {
+"Dive into the ZONe": 13.3,
+"エナドリおいしいソング": 14.0,
+"Maxi": 13.9
+},
+"2023-04-21": {
+"RIFFRAIN": None,
+"Falling": None,
+"ピリオドサイン": None,
+"群青シグナル": None
+},
+"2023-05-05": {
+"Baddest": None,
+"ばかみたい【Taxi Driver Edition】": 13.4,
+"れっつ！みらくる☆はーどこあっ！": 13.9,
+"ジングルベル": 14.7
+},
+"2023-05-19": {
+"Blank Paper (Prod. TEMPLIME)": 12.9,
+"In my world (Prod. KOTONOHOUSE)": 13.3,
+"アイム・マイヒーロー": 13.2,
+"NightTheater": 13.9
+},
+"2023-06-02": {
+"Ghost Dance": 13.3,
+"ピュグマリオンの咒文": None,
+"電光石火": None,
+"Hainuwele": None
+},
+"2023-06-16": {
+"Beat Opera op.1": None,
+"星見草": 13.8,
+"411Ψ892": 14.4,
+"康莊大道": 14.7
+},
+"2023-06-30": {
+"キュートなカノジョ": None,
+"へべれけジャンキー": None,
+"きゅうくらりん": None,
+"回る空うさぎ": None
+},
+"2023-07-14": {
+"Lost Desire": 13.8,
+"Alice’s Suitcase": 13.8,
+"Aegleseeker": 14.5,
+"最強STRONGER": 14.6
+},
+"2023-07-28": {
+"ボッカデラベリタ": 13.1,
+"『んっあっあっ。』": 12.8,
+"独りんぼエンヴィー": 12.7,
+"ロータスイーター": 13.3
+}
+    }
+
+    try:
+        today = datetime.date.today()
+        next_update_date = None
+        next_update_info = None
+
+        for update_date_str, update_info in updates.items():
+            update_date = datetime.datetime.strptime(update_date_str, "%Y-%m-%d").date()
+            if update_date > today:
+                if next_update_date is None or update_date < next_update_date:
+                    next_update_date = update_date
+                    next_update_info = update_info
+
+        if next_update_date is not None:
+            update_date_str = next_update_date.strftime("%Y-%m-%d")
+            days_until_next_update = (next_update_date - today).days
+            update_info_str = "\n".join([f"{song}: {difficulty}" for song, difficulty in next_update_info.items()])
+            await ctx.send(f"Next maimai FESTiVAL update:\nDate: {update_date_str}\nDays until next update: {days_until_next_update}\n\n{update_info_str}")
+        else:
+            await ctx.send("No upcoming updates found.")
+
+    except Exception as e:
+        if debug_mode:
+            await ctx.send(f"Error: {str(e)}")
+        return
 
 
 

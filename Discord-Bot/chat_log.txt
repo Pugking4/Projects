@@ -406,3 +406,16 @@ Pugking4#1713|2 are gonna be easy, 2 intermediate and 2 hard
 Pugking4#1713|adam said he finish easy ones in 1 min and the hard one in like 10 - 20 min
 Pugking4#1713|he took like 30 min in total and we have 90
 Pugking4#1713|also were gonna be marked on how good our soloution is for the harders ones
+Pugking4#1713|>maiupdate
+Pugking4#1713|bot now has a command to request next update
+Pugking4#1713|>maiupdate
+Pugking4#1713|>restart
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>maiupdate
+Pugking4#1713|>reload
+PugPyBot v0.1#6550|Restarting bot...
+Pugking4#1713|>maiupdate
+Pugking4#1713|also day counter
+Pugking4#1713|>maiupdate
+DEN#5812|<:amesoup:958679993527992360>
