@@ -6,7 +6,6 @@ math_scores = [90, 80, 85, 88, 92]
 science_scores = [89, 91, 80, 86, 95]
 english_scores = [85, 88, 90, 92, 94]
 
-# Write your code below to solve the challenge.
 data = []
 
 for i, student in enumerate(students):

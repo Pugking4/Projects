@@ -73,25 +73,6 @@ def assign_random_coords(game_map, room_counts, coords):
 def help():
     print("Commands: help, {move: forward, backward, left, right}, quit, map")
 
-def start_game():
-    print("Welcome to the game!")
-    print("To see commands type 'help'")
-    game_map = create_game_map(map_size)
-    room_counts = random_room_count()
-    coords = generate_coords(map_size)
-    assign_random_coords(game_map, room_counts, coords)
-    room_desc, monster_rooms = assign_description_to_rooms(game_map)
-    money, bank, bank_int = initialize_money()
-    player = initialize_stats()
-    monster_out = generate_random_monster_stats(monster_rooms)
-    #find entrance and assign to player loc
-    for row in game_map:
-        for room in row:
-            if room == 5:
-                #player loc is the coords of the entrance
-                player_loc = [game_map.index(row), row.index(room)]
-    return game_map, player_loc, money, bank, bank_int, player, room_desc, monster_rooms, monster_out
-
 def print_map(game_map, player_loc):
     print('   ' + ' '.join(axis))
     print('   ' + '_' * (len(' '.join(axis))))
