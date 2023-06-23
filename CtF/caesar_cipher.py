@@ -48,4 +48,5 @@ for i in range(1, 26):
 
 
 is_correct = test_flag(decrypted_flag, original_flag)
+print(original_flag)
 
